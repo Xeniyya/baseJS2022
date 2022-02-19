@@ -1,2 +1,2 @@
 console.log("HELLO JAVASCRIPT")
-const myName = Ksenia
+const myName = "Ksenia"
