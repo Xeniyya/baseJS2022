@@ -586,6 +586,7 @@ if (sum1 === sum2) {
     console.log("нет")
 } */
 
+//можно такой вариант проверки: result1 === result2 ? console.log("да") : console.log("нет");
 
 // решение Димы
 /* str = "4574238244";
@@ -606,3 +607,26 @@ if (sum1 === sum2) {
 }  else {
     console.log("нет")
 } */
+
+//задача про массив № 1
+
+/* const myArray = [10, 20, 30, 50, 235, 3000];
+
+for (let i = 0; i < myArray.length; i++) {
+    const firstArrayElement = myArray[i].toString();
+    if (firstArrayElement[0] === "1" || 
+    firstArrayElement[0] === "2" || 
+    firstArrayElement[0] === "5") //обращаемся к первому символу строки
+    { console.log(myArray[i]);
+    }
+} */
+
+/* function showGreeting(from, text = newFunction()) {
+    console.log(from + " " + text);
+}
+
+function newFunction() {
+ return "Ксюша";
+}
+
+showGreeting("Привет", "Дима"); */
